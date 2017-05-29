@@ -51,7 +51,14 @@ class GameForm extends React.Component {
   render() {
     return (
       <form className={classnames("ui form", { loading: this.state.loading })} onSubmit={this.handleSubmit}>
-        <h1>Add new game</h1>
+
+        <div>
+          { this.props.game ? (
+            <h1>Edit game</h1>
+          ) : (
+            <h1>Add new game</h1>
+          )}
+        </div>
 
         {!!this.state.errors.global &&
           <div className="ui negative message"><p>{this.state.errors.global}</p></div>
