@@ -5,5 +5,5 @@ To launch this app on you localhost, clone this repo, run ```npm install``` from
 
 Screenshots:
 ![games page](http://joxi.net/n2Ya4pycoQXEY2.jpg)
-![edit game page](http://joxi.net/82QQzJRHjzYnw2.jpg)
+![edit game page](http://joxi.net/v29PKb0I3PVxxm.jpg)
 ![new game page](http://joxi.net/Vm6xWjgsD5OovA.jpg)
